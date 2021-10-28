@@ -1,10 +1,10 @@
-# docker-todoapp
-Sample todo app using docker and Jenkins on Ubuntu
+# Docker-todoapp
+Sample todo app using Docker and Jenkins on Ubuntu
 
-## docker installation
+## Docker installation
 https://docs.docker.com/engine/install/ubuntu/
 
-## visualize docker in ubuntu
+## Visualize Docker in Ubuntu
 https://www.portainer.io/blog/portainer-your-docker-gui-for-your-ubuntu-linux-desktop
 
 ```shell
