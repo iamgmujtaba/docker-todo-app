@@ -6,10 +6,11 @@ https://docs.docker.com/engine/install/ubuntu/
 
 ## visualize docker in ubuntu
 https://www.portainer.io/blog/portainer-your-docker-gui-for-your-ubuntu-linux-desktop
+
 ```shell
 sudo docker volume create portainer_data
 sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-c
-```shell
+```
 
 You can now open your prefered browser, in my case its Firefox, and connect to 
 http://localhost:9000
@@ -19,7 +20,7 @@ http://localhost:9000
 ```shell
 sudo docker build -t todo-app .
 sudo docker run -dp 3000:3000 todo-app
-```shell
+```
 
 ## Jenkins Installation
 
@@ -35,8 +36,5 @@ sudo systemctl status jenkins
 
 sudo ufw allow 8080
 sudo ufw status
-```shell
-
-
-
+```
 
